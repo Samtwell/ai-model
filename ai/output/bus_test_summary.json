@@ -1,0 +1,28 @@
+{
+  "input_video": "d:\\wasteguardAI\\ai\\videos\\bus_test.mp4",
+  "output_video": "D:\\wasteguardAI\\ai\\output\\bus_test_detected.mp4",
+  "log_file": "D:\\wasteguardAI\\ai\\output\\bus_test_detections.jsonl",
+  "model": "D:\\wasteguardAI\\ai\\models\\yolov8n.pt",
+  "fps": 10.0,
+  "frame_count": 50,
+  "source_frame_count": 50,
+  "supported_waste_related_classes": [
+    "backpack",
+    "bench",
+    "bottle",
+    "bowl",
+    "cat",
+    "chair",
+    "cup",
+    "dog",
+    "handbag",
+    "person",
+    "potted plant",
+    "suitcase"
+  ],
+  "detections_by_class": {
+    "person": 162,
+    "bus": 50,
+    "stop sign": 11
+  }
+}
